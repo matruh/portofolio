@@ -44,7 +44,7 @@
         <i class="header-toggle d-xl-none bi bi-list"></i>
 
         <div class="profile-img">
-            <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+            <img src="assets/img/formal.jpg" alt="" class="img-fluid rounded-circle">
         </div>
 
         <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -99,11 +99,11 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+            <img src="assets/img/casual.jpg" alt="" data-aos="fade-in" class="">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Muhammmad Ruhiyat</h2>
-                <p>I'm <span class="typed" data-typed-items="Developer, Freelancer,Programmer,">Developer</span><span
+                <p>I'm <span class="typed" data-typed-items="Web Developer, Fresh Graduate,Software Developer,">Developer</span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             </div>
@@ -128,7 +128,7 @@
 
                 <div class="row gy-4 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/casual.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 content">
                         <h2>Software Developer &amp; Web Developer.</h2>
@@ -141,10 +141,10 @@
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>27 June
                                             2007</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Blood Type:</strong>
+                                        <span>O</span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 838 8017
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(+62) 838-8017-
                                             459</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Jakarta,
                                             Indonesia</span></li>
@@ -813,9 +813,10 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Contact</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
+                <h2>Contact me</h2>
+                <p>My contact information</p>
+            </div>
+            <!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -828,7 +829,8 @@
                                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
                                     <h3>Address</h3>
-                                    <p>Indonesia,Jawa Barat,Depok,Cimanggis,Mekarsari,JL Tiga Berlian Raya C-6 NO.143</p>
+                                    <p>Indonesia,Jawa Barat,Depok,Cimanggis,Mekarsari,JL Tiga Berlian Raya C-6 NO.143
+                                    </p>
                                 </div>
                             </div><!-- End Info Item -->
 
@@ -855,7 +857,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7">
+                    {{-- <div class="col-lg-7">
                         <form action="{{ route('contact') }}" method="POST" class="php-email-form" data-aos="fade-up"
                             data-aos-delay="200">
                             @csrf
@@ -894,7 +896,7 @@
 
                             </div>
                         </form>
-                    </div><!-- End Contact Form -->
+                    </div><!-- End Contact Form --> --}}
 
                 </div>
 
